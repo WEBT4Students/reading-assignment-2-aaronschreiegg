@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+    <head>           
+                <meta charset="UTF-8">
+                <meta name="description" content="Cheat Sheet">
+                <meta name="keywords" content="Word Wide Web, Web Server, Web Client, Hello World">
+                <meta name="author" content="Aaron Schreiegg">           
+    </head>
+    <body>  
+        <h3>
+            <u>World Wide Web General</u>
+        </h3>
+        <p>
+            <h4>
+                1.	What are the most essential technologies that made the World Wide Web such a success?
+            </h4>
+            <p>
+                The most essential technologies which made the World Wide Web such a success is the HTTP protocol for transferring the data, the Hypertext Markup Language (=html), which made it easy to create websites and as a third the web browser as a client program, which displayed the transferred data in the described way.
+            </p>
+
+            <h4>
+                2.	How are resources (html pages, images, etc.) addressed in the web?
+            </h4>
+            <p>
+                The browser resolves the server name of the URL (example.org) into an Internet Protocol address using the globally distributed Domain Name System (DNS). The browser then requests the resource by sending an HTTP request across the Internet to the computer at that address.
+            </p>
+
+            <h4>
+                3.	What are the components of a URL?
+            </h4>
+            <p>
+                typical URL: 	https://www.example.com/index.html <br>
+                http             = protocol <br>
+                www.example.com  = hostname <br>
+                index.html		 = file name <br>                
+            </p>
+        </p>
+        <h3>
+            <u>Web Server</u>
+        </h3>
+        <p>
+            <h4>
+                1.	What is a web server?
+            </h4>
+            <p>
+                A webserver is a computer software and underlying hardware that accepts requests via HTTP or HTTPS.
+            </p>
+            <h4>
+                2.	What does a web server do?
+            </h4>
+            <p>
+                A web server connects to the Internet and supports physical data interchange with other devices connected to the web. On the software side, a web server includes several parts that control how web users access hosted files.
+            </p>
+            <h4>
+                3.	How can content be stored on a web server?
+            </h4>
+            <p>
+                The content on a web server is either stored on the file system or in databases.
+            </p>
+            <h4>
+                4.	How is content in webpages described?
+            </h4>
+            <p>
+                Content is either described static or dynamic. Static content are predefined html-files, dynamic content is created while accessing the webserver (eg. as a result of a database request)
+               
+            </p>
+        </p>
+        <h3>
+            <u>Web Client</u>
+        </h3>
+        <p>
+            <h4>
+                1.	What is a web client?
+            </h4>
+            <p>
+                A web client is program which is able to retrieve data from a web server, interpreting the data and showing the data.
+            </p>
+            <h4>
+                2.	What does a web client do?
+            </h4>
+            <p>
+                A web client is requesting or sending data from or to a web server and is working with the data.
+            </p>
+            <h4>
+                3.	Web Client and Web Browser are the same?
+            </h4>
+            <p>
+                A web browser is specific kind of web client which shows whole website.
+            </p>
+        </p>
+        <h3>
+            <u>Hello World</u>
+        </h3>
+        <p>
+            <h4>
+                1.	What is the html head element?
+            </h4>
+            <p>
+                The <b>head</b> element is a container for metadata (data about data) and is placed between the <b>html</b> tag and the <b>body</b> tag.
+            </p>
+            <h4>
+                2.	What does <b>!DOCTYPE html</b> mean?
+            </h4>
+            <p>
+                All HTML documents must start with a <b>!DOCTYPE</b> declaration. The declaration is not an HTML tag. It is an information to the browser about what document type to expect.
+
+            </p>
+            <h4>
+                3.	What are the two top most elements within the html element?
+            </h4>
+            <p>
+                The two top most elements are paragraphs <b>p</b> and headers <b>h1</b> - <b>h6</b>
+            </p>
+            <h4>
+                4.	How to emphasize and how is it displayed in the browser?
+            </h4>
+            <p>
+                You can use the <b>em</b> tag to define emphasized text. The content inside is displayed in <em>italic</em>.
+            </p>
+            <h4>
+                5.	How to markup important text and how is it displayed in the browser?
+            </h4>
+            <p>
+                You can markup text by using <b>strong</b>. The content inside is displayed <strong>bold</strong>.
+            </p>
+        </p>
+
+        <p>--------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+        <h3>
+            <u>Html</u>
+        </h3>
+        
+        <h4>Properly name the components of HTML elements</h4>
+
+    The <strong>html</strong> element is the root element and defines the entire HTML document.
+    Then inside the html element there is a body element
+
+    The <strong>body</strong> element defines the body of the document.
+    Then inside the body element there are two other elements: <strong>h1 and p</strong>
+
+    The <strong>h1</strong> element defines a heading
+    The <strong>p</strong> element defines a paragraph
+
+<h4>Identify void elements and how they are denoted</h4>
+ 
+    The <strong>br</strong> tag defines a line break, and is an empty element without a closing tag.
+
+<h4>Identify attributes</h4>
+ 
+    The <strong>a</strong> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to
+    The <strong>img</strong> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed
+    The img tag should also contain the width and height attributes, which specify the width and height of the image (in pixels)
+    The required <strong>alt</strong> attribute for the img tag specifies an alternate text for an image, if the image for some reason cannot be displayed
+    This can be due to a slow connection, or an error in the src attribute, or if the user uses a screen reader.
+    The <strong>style</strong> attribute is used to add styles to an element, such as color, font, size, and more
+    You should always include the <strong>long</strong> attribute inside the html tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
+    The <strong>title</strong> attribute defines some extra information about an element
+
+<h4>Write down the correct DOCTYPE declaration for html 5</h4>
+ 
+    !DOCTYPE html<br/>
+
+<h4>Write down syntactically correct statements for the following elements</h4>
+
+Article (article)<br/> 
+
+<h5>Body (body)</h5><br/>
+
+    The <strong>body</strong> element defines the body of the document.
+    Then inside the body element there are two other elements: <strong>h1 and p</strong>
+
+<h5>line break (br)</h5><br/>
+
+    The <strong>br</strong> tag defines a line break, and is an empty element without a closing tag.
+
+<h5>Headings (h1, ...)</h5><br/>
+
+    h1 defines the most important heading. h6 defines the least important heading
+    h1 headings should be used for main headings, followed by h2 headings, then the less important h3, and so on.
+
+<h5>Section with meta-information (head)</h5>
+
+    The head element is a container for metadata (data about data) and is placed between the html tag and the body tag.
+
+<h5>Top level element (html)</h5><br/>
+
+    The <strong>html</strong> element is the root element and defines the entire HTML document.
+    Then inside the html element there is a body element
+
+<h5>Image named Team.jpg (img src="Team.jpg")</h5><br/>
+
+    The img tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed
+
+<h5>Paragraph (p)</h5><br/>
+
+    HTML paragraphs are defined with the <strong>p</strong> tag
+
+<h5>Section (section)</h5><br/>
+
+<h5>Label appearing in the title bar (title)</h5><br/>
+
+    The title element defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.
+
+    The title element is required in HTML documents!
+    
+    The content of a page title is very important for search engine optimization (SEO)! The page title is used by search engine algorithms to decide the order when listing pages in search results.
+    
+    The title element:<br/>
+    
+    defines a title in the browser toolbar<br/>
+    provides a title for the page when it is added to favorites
+    displays a title for the page in search engine-results
+    So, try to make the title as accurate and meaningful as possible!
+
+<h5>Link to other pages (a)</h5><br/>
+
+    The <strong>a</strong> tag defines a hyperlink
+
+<h5>Comment</h5><br/>
+
+    You can add comments to your HTML source by using the following syntax
+    Notice that there is an exclamation point (!) in the start tag, but not in the end tag
+
+    With comments you can place notifications and reminders in your HTML code
+
+    Comments can be used to hide content.
+    This can be helpful if you hide content temporarily
+    You can also hide more than one line. Everything between them will be hidden from the display
+
+    Comments can be used to hide parts in the middle of the HTML code
+
+<h5>Head with title and meta elements</h5><br/>
+
+<h2>CSS</h2><br/>
+
+<h3>Name the components of a css rule properly</h3>
+
+    The selector points to the HTML element you want to style.
+
+    The declaration block contains one or more declarations separated by semicolons.
+
+    Each declaration includes a CSS property name and a value, separated by a colon.
+
+    Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces
+
+<h3>Use combinators properly: direct child, descendant, adjacent sibling, sibling</h3><br/>   
+
+<h3>Specify colors by color names and in hexadecimal notation</h3><br/>
+
+    red = Tomate = #ff6347<br/>
+    blue = DodgerBlue<br/>
+    grey = gray<br/>
+    violet = violet<br/>
+    grange = Orange<br/>
+
+<h3>Declarations for color, background color</h3><br/>
+
+    h1 style="color:Tomato;">Hello World h1<br/>
+    h1 style="background-color:DodgerBlue;">Hello World h1<br/>
+
+<h3>Pseudo classes for the a element</h3><br/>
+
+    :hover<br/>
+    :active<br/>
+    :focus<br/>
+    :focus-within<br/>
+
+<h3>Declaration for background image</h3><br/>
+
+    background-image: url("paper.gif");<br/>
+
+<h3>Declaration for text alignment (left, right, center, justify)</h3><br/>
+
+    h1 {<br/>
+      text-align: center;<br/>
+    }<br/>
+  
+    h2 {<br/>
+      text-align: left;<br/>
+    }<br/>
+  
+    h3 {<br/>
+      text-align: right;<br/>
+    }<br/>
+
+    div {<br/>
+      text-align: justify;<br/>
+    }<br/>
+
+<h3>Declaration for text decoration (overline, underline, line-through)</h3><br/>
+
+    h1 {<br/>
+      text-decoration-line: overline;<br/>
+    }<br/>
+  
+    h2 {<br/>
+      text-decoration-line: line-through;<br/>
+    }<br/>
+  
+    h3 {<br/>
+      text-decoration-line: underline;<br/>
+    }<br/>
+  
+    p {<br/>
+      text-decoration-line: overline underline;<br/>
+    }<br/>
+
+<h3>Declaration for text transformation (uppercase, lowercase, capitalize)</h3><br/>
+
+    p.uppercase {<br/>
+        text-transform: uppercase;<br/>
+      }<br/>
+      
+      p.lowercase {<br/>
+        text-transform: lowercase;<br/>
+      }<br/>
+      
+      p.capitalize {<br/>
+        text-transform: capitalize;<br/>
+      }<br/>
+
+<h3>Identify the difference between serif and sans-serif fonts</h3><br/>
+
+    So, in a nutshell, serif fonts have those decorative lines or tapers (also commonly referred to as “tails” or “feet”) while sans serif fonts don't<br/>
+
+<h3>Declarations for font families</h3><br/>
+    
+    body {<br/>
+        font-family: "Times New Roman", Times, serif;<br/>
+    }<br/>
+    body {<br/>
+        font-family: Arial, Helvetica, sans-serif;<br/>
+    }<br/>
+
+<h3>Declarations for font style normal and italic</h3><br/>
+
+    p.normal {<br/>
+        font-style: normal;<br/>
+    }<br/>
+      
+      p.italic {<br/>
+        font-style: italic;<br/>
+    }<br/>
+    
+<h3>Declarations for font sizes</h3><br/>
+
+    
+    h1 {<br/>
+        font-size: 40px;<br/>
+    }<br/>
+      
+      h2 {<br/>
+        font-size: 30px;<br/>
+    }<br/>
+      
+      p {<br/>
+        font-size: 14px;<br/>
+    }<br/>
+
+<h3>Declarations for font weights</h3><br/>
+
+    font-weight: normal;<br/>
+    </body>
+</html>
